@@ -1,0 +1,88 @@
+.bodyStyle {
+    padding-bottom: 60px;
+}
+.formStyle {
+    text-shadow:
+        2px 2px 0 rgb(255, 255, 255),
+        -2px -2px 0 rgb(255, 255, 255),
+        2px -2px 0 rgb(255, 255, 255),
+        -2px 2px 0 rgb(255, 255, 255),
+        0 2px 0 rgb(255, 255, 255),
+        2px 0 0 rgb(255, 255, 255),
+        0 -2px 0 rgb(255, 255, 255),
+        -2px 0 0 rgb(255, 255, 255),
+        2px 2px 5px rgb(255, 255, 255);
+    box-shadow: 0 1px 2px rgba(255, 255, 255, 0.09),
+        0 2px 4px rgba(255, 255, 255, 0.09),
+        0 4px 8px rgba(255, 255, 255, 0.09),
+        0 8px 16px rgba(255, 255, 255, 0.09),
+        0 6px 32px rgba(255, 255, 255, 0.09),
+        0 2px 64px rgba(255, 255, 255, 0.09);
+    min-width: fit-content;
+    min-height: fit-content;
+}
+.submit {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color, border-color, color, box-shadow, filter;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 130px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 16px 14px 18px;
+    color: #616467;
+    box-shadow: inset 0 0 0 2px #616467;
+    background-color: transparent;
+    height: 42px;
+}
+.submit:hover {
+    color: #fff;
+    background-color: #616467;
+}
+.submit-text {
+    display: inline-block;
+    outline: none;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color, border-color, color, box-shadow, filter;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 100%;
+    text-transform:none;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 16px 14px 18px;
+    color: #616467;
+    box-shadow: inset 0 0 0 2px #616467;
+    background-color: transparent;
+    height: 42px;
+}
+.submit-text:hover {
+    color: #fff;
+    background-color: #616467;
+}
+.lgnd {
+    text-shadow:
+        2px 2px 0 rgb(255, 255, 255),
+        -2px -2px 0 rgb(255, 255, 255),
+        2px -2px 0 rgb(255, 255, 255),
+        -2px 2px 0 rgb(255, 255, 255),
+        0 2px 0 rgb(255, 255, 255),
+        2px 0 0 rgb(255, 255, 255),
+        0 -2px 0 rgb(255, 255, 255),
+        -2px 0 0 rgb(255, 255, 255),
+        2px 2px 5px rgb(255, 255, 255);
+    margin-bottom: -20px;
+    font-size: 20px;
+}
